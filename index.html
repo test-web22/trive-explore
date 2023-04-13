@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,reqular,500,600&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=DM+Serif+Display:regular&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/simple-adaptive-slider.css">
+	<link rel="stylesheet" href="/css/select.css">
+	<script defer src="js/simple-adaptive-slider.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			// активация слайдера
+			new ItcSimpleSlider('.itcss', {
+				loop: true,
+				autoplay: true,
+				swipe: true
+			});
+		});
+	</script>
+	<link rel="shortcut icon" href="/img/page-logo.ico">
+	<title>Trive, explore the world with us</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#home" class="header__logo">
+					<img src="/img/Logo.svg" alt="logo">
+				</a>
+				<nav class="header__menu menu">
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#home" class="menu__link">Home</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">About</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Features</a>
+							</li>
+							<li class="menu__item">
+								<a href="#trending" class="menu__link">Blog</a>
+							</li>
+							<li class="menu__item">
+								<a href="#subform" class="menu__link">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<a href="#" class="header__button button">Sign up</a>
+				<button class="icon-menu" type="button">
+					<span></span>
+				</button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main">
+				<div class="main__container">
+					<div class="main__search search">
+						<h1 id="home" class="search__title">Travel more, create more memories.</h1>
+						<div class="search__text">
+							<p>A Tram of devoted and experienced tourism professionssionals will provide you with the best
+								advice and tips.</p>
+						</div>
+						<form action="#" class="search__form form-search">
+							<div class="form-search__body">
+								<div class="form-search__item">
+									<div class="form-search__label">Tour Name</div>
+									<select class="form-search__select">
+										<option value="-" selected>-</option>
+										<option value="Adventure">Adventure</option>
+										<option value="Recreational">Recreational</option>
+										<option value="Cultural">Cultural</option>
+									</select>
+								</div>
+								<div class="form-search__item">
+									<div class="form-search__label">Popular Tour</div>
+									<select class="form-search__select">
+										<option value="-" selected>-</option>
+										<option value="The Colosseum">The Colosseum, Rome</option>
+										<option value="Eiffel Tower">Eiffel Tower, Paris</option>
+										<option value="Machu Picchu">Machu Picchu, Peru</option>
+										<option value="Pyramids of Giza">Pyramids of Giza, Egypt</option>
+									</select>
+								</div>
+								<div class="form-search__item">
+									<div class="form-search__label">Average Price</div>
+									<select class="form-search__select">
+										<option value="-" selected>-</option>
+										<option value="from 100$ to 200$">100$ - 200$</option>
+										<option value="from 200$ to 400$">200$ - 400$</option>
+										<option value="from 400$ to 800$">400$ - 800$</option>
+										<option value="from 800$ to">from 800$ to</option>
+									</select>
+								</div>
+							</div>
+							<button type="submit" class="form-search__button button">Search</button>
+						</form>
+					</div>
+					<div class="main__images images-main">
+						<div class="images-main__column">
+							<div class="images-main__img images-main__img--1">
+								<img src="/img/main/01.jpg" alt="images-main">
+							</div>
+							<div class="images-main__img images-main__img--2">
+								<img src="/img/main/02.jpg" alt="images-main">
+							</div>
+						</div>
+						<div class="images-main__column">
+							<div class="images-main__img images-main__img--3">
+								<img src="/img/main/03.jpg" alt="images-main">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__partners partners-page">
+				<div class="partners-page__container">
+					<div class="partners-page__item">
+						<img src="/img/partners/01.svg" alt="partners">
+					</div>
+					<div class="partners-page__item">
+						<img src="/img/partners/02.svg" alt="partners">
+					</div>
+					<div class="partners-page__item">
+						<img src="/img/partners/03.svg" alt="partners">
+					</div>
+					<div class="partners-page__item">
+						<img src="/img/partners/04.svg" alt="partners">
+					</div>
+				</div>
+			</section>
+			<section class="page__explore explore-page">
+				<div class="explore-page__container">
+					<div class="itcss">
+						<div class="itcss__wrapper">
+							<div class="itcss__items">
+								<div class="itcss__item">
+									<img src="/img/explore/01.jpeg" alt="explore">
+								</div>
+								<div class="itcss__item">
+									<img src="/img/explore/02.jpeg" alt="explore">
+								</div>
+								<div class="itcss__item">
+									<img src="/img/explore/03.jpeg" alt="explore">
+								</div>
+								<div class="itcss__item">
+									<img src="/img/explore/04.png" alt="explore">
+								</div>
+							</div>
+						</div>
+						<button class="itcss__btn itcss__btn_prev" role="button" data-slide="prev"></button>
+						<button class="itcss__btn itcss__btn_next" role="button" data-slide="next"></button>
+					</div>
+					<div class="explore-page__content">
+						<div class="explore-page__title">A new way to explore the world </div>
+						<div class="explore-page__text">
+							<p>
+								For decades travellers have reached for Lonely Planet books when looking to plan and execute
+								their perfect
+								trip, but now, they can also let Lonely Planet Experiences lead the way
+							</p>
+						</div>
+						<a href="#" class="explore-page__button button">Learn more</a>
+					</div>
+				</div>
+			</section>
+			<section class="page__destinations destinations-page">
+				<div class="destinations-page__container">
+					<div class="destinations-page__content">
+						<h2 class="destinations-page__title">Popular destinations</h2>
+						<a href="#" class="destinations-page__button button">View all</a>
+					</div>
+					<div class="destinations-page__popular">
+						<div class="destinations-page__items">
+							<div class="destinations-page__column">
+								<div class="destinations-page__image">
+									<img src="/img/destinations/01.jpg" alt="popular-destinations">
+								</div>
+								<a href="#" class="destinations-page__rating rating">
+									<h3 class="rating__title">Bali, Indonesia</h3>
+									<div class="rating__body">
+										<div class="rating__stars">
+											<img src="img/destinations/star.png" alt="star">
+											<div class="rating__value">5.0 Superb</div>
+										</div>
+										<div class="rating__price">$360</div>
+									</div>
+								</a>
+							</div>
+							<div class="destinations-page__column">
+								<div class="destinations-page__image">
+									<img src="/img/destinations/02.jpg" alt="popular-destinations">
+								</div>
+								<a href="#" class="destinations-page__rating rating">
+									<h3 class="rating__title">Tokya, Japan</h3>
+									<div class="rating__body">
+										<div class="rating__stars">
+											<img src="img/destinations/star.png" alt="star">
+											<div class="rating__value">3.9 Good</div>
+										</div>
+										<div class="rating__price">$429</div>
+									</div>
+								</a>
+							</div>
+							<div class="destinations-page__column">
+								<div class="destinations-page__image">
+									<img src="/img/destinations/03.jpg" alt="popular-destinations">
+								</div>
+								<a href="#" class="destinations-page__rating rating">
+									<h3 class="rating__title">Dylan, Turkey</h3>
+									<div class="rating__body">
+										<div class="rating__stars">
+											<img src="img/destinations/star.png" alt="star">
+											<div class="rating__value">5.0 Superb</div>
+										</div>
+										<div class="rating__price">$490</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__testimonials testimonials-page">
+				<div class="testimonials-page__container">
+					<div class="testimonials-page__content">
+						<h2 class="testimonials-page__title">Testimonials</h2>
+						<div class="testimonials-page__text">
+							<p>
+								“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu,
+								facilisis quis purus. Morbi
+								blandit sit amet turpis nec”
+							</p>
+						</div>
+						<div class="testimonials-page__who">Benjamin Noah.</div>
+						<div class="testimonials-page__position">Founder Circle</div>
+					</div>
+					<div class="testimonials-page__image">
+						<img src="img/testimonials/image.png" alt="image">
+					</div>
+				</div>
+			</section>
+			<section class="page__trending trending-page">
+				<div class="trending-page__container">
+					<div class="trending-page__content">
+						<h2 id="trending" class="trending-page__title">Trending stories</h2>
+						<a href="#" class="trending-page__button button button--nb">View all</a>
+					</div>
+					<div class="trending-page__items items-trending-page">
+						<div class="items-trending-page__item">
+							<img src="/img/trending-stories/01.jpg" alt="trending-stories">
+							<div class="items-trending-page__body">
+								<div class="items-trending-page__location">
+									<span>Matira Beach</span>
+								</div>
+								<h3 class="items-trending-page__title">Every sunset bring the promise of a new dawn</h3>
+								<div class="items-trending-page__date">February 12, 2020</div>
+							</div>
+						</div>
+						<div class="items-trending-page__item">
+							<img src="/img/trending-stories/02.jpg" alt="trending-stories">
+							<div class="items-trending-page__body">
+								<div class="items-trending-page__location">
+									<span>Matira Beach</span>
+								</div>
+								<h3 class="items-trending-page__title">Muslim gathering place for prayer.</h3>
+								<div class="items-trending-page__date">March 21, 2020</div>
+							</div>
+						</div>
+						<div class="items-trending-page__item">
+							<img src="/img/trending-stories/03.jpg" alt="trending-stories">
+							<div class="items-trending-page__body">
+								<div class="items-trending-page__location">
+									<span>Matira Beach</span>
+								</div>
+								<h3 class="items-trending-page__title">A beach is landform alongside a body</h3>
+								<div class="items-trending-page__date">April 02, 2020</div>
+							</div>
+						</div>
+						<div class="items-trending-page__item">
+							<div class="items-trending-page__body">
+								<div class="items-trending-page__location">
+									<span>Matira Beach</span>
+								</div>
+								<h3 class="items-trending-page__title">The best time to visit the Amalfi Coast</h3>
+								<div class="items-trending-page__date">June 29, 2020</div>
+							</div>
+							<img src="/img/trending-stories/04.jpg" alt="trending-stories">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__subscribe subscribe-page">
+				<div class="subscribe-page__container">
+					<div class="subscribe-page__content">
+						<div class="subscribe-page__title">Subscribe to Our Newsletter! To get Latest News of Us.</div>
+					</div>
+					<form action="#" class="subscribe-page__subscribe subscribe">
+						<div id="subform" class="subscribe__body">
+							<div class="subscribe__inputbox">
+								<input type="text" id="email" onkeydown="validation()" name=""
+									placeholder="Type Email Address Here" class="subscribe__input">
+							</div>
+							<button type="submit" class="subscribe__button button">Subscribe</button>
+						</div>
+						<span id="subscribe_text" class="subscribe__text"></span>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__column">
+					<a href="#" class="footer__logo">
+						<img src="/img/Logo.svg" alt="logo">
+					</a>
+					<div class="footer__items">
+						<a href="#" class="footer__item">
+							<img src="/img/footer/fb.png" alt="fb">
+						</a>
+						<a href="#" class="footer__item">
+							<img src="/img/footer/twiter.png" alt="twiter">
+						</a>
+						<a href="#" class="footer__item">
+							<img src="/img/footer/in.png" alt="in">
+						</a>
+						<a href="#" class="footer__item">
+							<img src="/img/footer/instagram.png" alt="instagram">
+						</a>
+					</div>
+				</div>
+				<div class="footer__column">
+					<div class="footer__label">Information</div>
+					<nav class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Products</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">About Us</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Blog</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Enent</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__column">
+					<div class="footer__label">Helpful Links</div>
+					<nav class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Destinations</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Supports</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Terms & Condition</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Privacy</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__column">
+					<div class="footer__label">Our Service</div>
+					<nav class="footer__menu menu-footer">
+						<ul class="menu-footer__list">
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Traveling</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Support 24/7</a>
+							</li>
+							<li class="menu-footer__item">
+								<a href="#" class="menu-footer__link">Guide</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					<div class="bottom-footer__copy">© 2022 webpagedesign.io</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="/js/main.js"></script>
+	<script src="/js/select.js"></script>
+</body>
+
+</html>
