@@ -751,7 +751,7 @@ body.menu-open {
 }
 .testimonials-page__image::before {
   content: "";
-  background: rgba(255, 196, 86, 0.509) url(/img/testimonials/decor.png) 50% 50% no-repeat;
+  background: rgba(255, 196, 86, 0.509) url(https://test-web22.github.io/trive-explore/img/testimonials/decor.png) 50% 50% no-repeat;
   position: absolute;
   width: 104px;
   height: 104px;
@@ -927,7 +927,7 @@ body.menu-open {
   height: 24px;
   top: 0;
   right: 5px;
-  background: url(/img/icons/invalid.png);
+  background: url(https://test-web22.github.io/trive-explore/img/icons/invalid.png);
   background-size: cover;
   z-index: 1000;
 }
@@ -938,7 +938,7 @@ body.menu-open {
   height: 24px;
   top: 0;
   right: 5px;
-  background: url(/img/icons/valid.png);
+  background: url(https://test-web22.github.io/trive-explore/img/icons/valid.png);
   background-size: cover;
   z-index: 1000;
 }
